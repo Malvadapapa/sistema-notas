@@ -15,8 +15,6 @@ def menu ():
         notas.append(valor)
 
     print(f"Su promedio es: {calculadora.calcular_promedio(notas[0], notas[1], notas[2])}")
-    
-    #print(f"Su promedio es: {calculadora.calcular_promedio(notas)}")
 
 
 menu()
